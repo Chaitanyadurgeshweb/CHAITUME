@@ -6,7 +6,7 @@ import { signToken, requireAuth } from "../lib/jwt";
 const router = Router();
 
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || "Chaitu";
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Chaitu@001158";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Chaitu@7995";
 
 router.post("/auth/login", async (req, res) => {
   const { username, password } = req.body as {
